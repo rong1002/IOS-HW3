@@ -7,12 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91566CEA254B0F870084CB2E /* PlayMusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91566CE9254B0F870084CB2E /* PlayMusicView.swift */; };
+		91566CF7254B11780084CB2E /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91566CF6254B11780084CB2E /* ButtonView.swift */; };
 		91727A8A254AA9E5008AB634 /* IOS_HW3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91727A89254AA9E5008AB634 /* IOS_HW3App.swift */; };
 		91727A8C254AA9E5008AB634 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91727A8B254AA9E5008AB634 /* ContentView.swift */; };
 		91727A8E254AA9E9008AB634 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91727A8D254AA9E9008AB634 /* Assets.xcassets */; };
 		91727A91254AA9E9008AB634 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91727A90254AA9E9008AB634 /* Preview Assets.xcassets */; };
 		91727A9C254AA9EB008AB634 /* IOS_HW3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91727A9B254AA9EB008AB634 /* IOS_HW3Tests.swift */; };
 		91727AA7254AA9EB008AB634 /* IOS_HW3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91727AA6254AA9EB008AB634 /* IOS_HW3UITests.swift */; };
+		91727ABD254AAD36008AB634 /* EditPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91727ABC254AAD36008AB634 /* EditPhotoView.swift */; };
+		91727AC8254AF688008AB634 /* dataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91727AC7254AF688008AB634 /* dataView.swift */; };
+		91727ADE254B08E4008AB634 /* 摩天動物園.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 91727AD5254B08DD008AB634 /* 摩天動物園.mp3 */; };
+		91927E40254C33D000499E5D /* 喜歡你.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 91927E3F254C33D000499E5D /* 喜歡你.mp3 */; };
+		91927E45254C348A00499E5D /* SelectSong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91927E44254C348A00499E5D /* SelectSong.swift */; };
+		91BDE7D8254D9AB5000449FF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BDE7D7254D9AB5000449FF /* MapView.swift */; };
+		91E7E7E6254C604400EEEE7D /* 倒數.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 91E7E7DE254C604100EEEE7D /* 倒數.mp3 */; };
+		91E7E7E7254C604400EEEE7D /* 差不多姑娘.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 91E7E7DF254C604100EEEE7D /* 差不多姑娘.mp3 */; };
+		91E7E7E8254C604400EEEE7D /* 再見.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 91E7E7E0254C604200EEEE7D /* 再見.mp3 */; };
+		91E7E7E9254C604400EEEE7D /* 光年之外.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 91E7E7E1254C604200EEEE7D /* 光年之外.mp3 */; };
+		91E7E7EA254C604400EEEE7D /* 孤獨.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 91E7E7E2254C604300EEEE7D /* 孤獨.mp3 */; };
+		91E7E7EB254C604400EEEE7D /* 來自天堂的魔鬼.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 91E7E7E3254C604300EEEE7D /* 來自天堂的魔鬼.mp3 */; };
+		91E7E7EC254C604400EEEE7D /* 透明.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 91E7E7E4254C604300EEEE7D /* 透明.mp3 */; };
+		91E7E7ED254C604400EEEE7D /* 很久以後.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 91E7E7E5254C604400EEEE7D /* 很久以後.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		91566CE9254B0F870084CB2E /* PlayMusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayMusicView.swift; sourceTree = "<group>"; };
+		91566CF6254B11780084CB2E /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		91727A86254AA9E5008AB634 /* IOS-HW3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS-HW3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91727A89254AA9E5008AB634 /* IOS_HW3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_HW3App.swift; sourceTree = "<group>"; };
 		91727A8B254AA9E5008AB634 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +63,20 @@
 		91727AA2254AA9EB008AB634 /* IOS-HW3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS-HW3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91727AA6254AA9EB008AB634 /* IOS_HW3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_HW3UITests.swift; sourceTree = "<group>"; };
 		91727AA8254AA9EB008AB634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91727ABC254AAD36008AB634 /* EditPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPhotoView.swift; sourceTree = "<group>"; };
+		91727AC7254AF688008AB634 /* dataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataView.swift; sourceTree = "<group>"; };
+		91727AD5254B08DD008AB634 /* 摩天動物園.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "摩天動物園.mp3"; sourceTree = "<group>"; };
+		91927E3F254C33D000499E5D /* 喜歡你.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "喜歡你.mp3"; path = "../../../Downloads/喜歡你.mp3"; sourceTree = "<group>"; };
+		91927E44254C348A00499E5D /* SelectSong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSong.swift; sourceTree = "<group>"; };
+		91BDE7D7254D9AB5000449FF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		91E7E7DE254C604100EEEE7D /* 倒數.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "倒數.mp3"; sourceTree = "<group>"; };
+		91E7E7DF254C604100EEEE7D /* 差不多姑娘.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "差不多姑娘.mp3"; sourceTree = "<group>"; };
+		91E7E7E0254C604200EEEE7D /* 再見.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "再見.mp3"; sourceTree = "<group>"; };
+		91E7E7E1254C604200EEEE7D /* 光年之外.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "光年之外.mp3"; sourceTree = "<group>"; };
+		91E7E7E2254C604300EEEE7D /* 孤獨.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "孤獨.mp3"; sourceTree = "<group>"; };
+		91E7E7E3254C604300EEEE7D /* 來自天堂的魔鬼.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "來自天堂的魔鬼.mp3"; sourceTree = "<group>"; };
+		91E7E7E4254C604300EEEE7D /* 透明.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "透明.mp3"; sourceTree = "<group>"; };
+		91E7E7E5254C604400EEEE7D /* 很久以後.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "很久以後.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +127,24 @@
 		91727A88254AA9E5008AB634 /* IOS-HW3 */ = {
 			isa = PBXGroup;
 			children = (
+				91927E3F254C33D000499E5D /* 喜歡你.mp3 */,
+				91727AD5254B08DD008AB634 /* 摩天動物園.mp3 */,
+				91E7E7E1254C604200EEEE7D /* 光年之外.mp3 */,
+				91E7E7E0254C604200EEEE7D /* 再見.mp3 */,
+				91E7E7E3254C604300EEEE7D /* 來自天堂的魔鬼.mp3 */,
+				91E7E7E2254C604300EEEE7D /* 孤獨.mp3 */,
+				91E7E7E5254C604400EEEE7D /* 很久以後.mp3 */,
+				91E7E7DE254C604100EEEE7D /* 倒數.mp3 */,
+				91E7E7DF254C604100EEEE7D /* 差不多姑娘.mp3 */,
+				91E7E7E4254C604300EEEE7D /* 透明.mp3 */,
 				91727A89254AA9E5008AB634 /* IOS_HW3App.swift */,
 				91727A8B254AA9E5008AB634 /* ContentView.swift */,
+				91BDE7D7254D9AB5000449FF /* MapView.swift */,
+				91727ABC254AAD36008AB634 /* EditPhotoView.swift */,
+				91566CF6254B11780084CB2E /* ButtonView.swift */,
+				91927E44254C348A00499E5D /* SelectSong.swift */,
+				91566CE9254B0F870084CB2E /* PlayMusicView.swift */,
+				91727AC7254AF688008AB634 /* dataView.swift */,
 				91727A8D254AA9E9008AB634 /* Assets.xcassets */,
 				91727A92254AA9E9008AB634 /* Info.plist */,
 				91727A8F254AA9E9008AB634 /* Preview Content */,
@@ -233,8 +281,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91E7E7ED254C604400EEEE7D /* 很久以後.mp3 in Resources */,
+				91E7E7E8254C604400EEEE7D /* 再見.mp3 in Resources */,
+				91E7E7E6254C604400EEEE7D /* 倒數.mp3 in Resources */,
+				91E7E7EA254C604400EEEE7D /* 孤獨.mp3 in Resources */,
+				91E7E7E7254C604400EEEE7D /* 差不多姑娘.mp3 in Resources */,
 				91727A91254AA9E9008AB634 /* Preview Assets.xcassets in Resources */,
+				91E7E7E9254C604400EEEE7D /* 光年之外.mp3 in Resources */,
+				91927E40254C33D000499E5D /* 喜歡你.mp3 in Resources */,
 				91727A8E254AA9E9008AB634 /* Assets.xcassets in Resources */,
+				91E7E7EC254C604400EEEE7D /* 透明.mp3 in Resources */,
+				91E7E7EB254C604400EEEE7D /* 來自天堂的魔鬼.mp3 in Resources */,
+				91727ADE254B08E4008AB634 /* 摩天動物園.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +317,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91566CEA254B0F870084CB2E /* PlayMusicView.swift in Sources */,
+				91BDE7D8254D9AB5000449FF /* MapView.swift in Sources */,
+				91727ABD254AAD36008AB634 /* EditPhotoView.swift in Sources */,
+				91927E45254C348A00499E5D /* SelectSong.swift in Sources */,
 				91727A8C254AA9E5008AB634 /* ContentView.swift in Sources */,
+				91727AC8254AF688008AB634 /* dataView.swift in Sources */,
 				91727A8A254AA9E5008AB634 /* IOS_HW3App.swift in Sources */,
+				91566CF7254B11780084CB2E /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
